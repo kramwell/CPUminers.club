@@ -1,0 +1,173 @@
+
+
+body {
+	font-size: 100%;
+	background: url(back.jpg)no-repeat center top;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+/*--banner--*/
+.ban-head {
+    margin: 16em 0 0 0;
+
+}
+
+/*--//banner--*/
+
+.agileinfo-grids {
+    background: #00000087;
+    padding: 2em;
+}
+
+/*-- social-icons padding: 0em 2em 0em 2em;--*/
+.agileinfo-social-grids {
+    z-index: 999;
+    text-align: center;
+    float: center;
+}
+.agileinfo-social-grids ul {
+    padding: 0;
+    margin: 0;
+}
+.agileinfo-social-grids ul li {
+    display: inline-block;
+    margin: .5em 0;
+}
+.agileinfo-social-grids ul li a {
+    color: #FFFFFF;
+    text-align: center;
+}
+.agileinfo-social-grids ul li a i {
+	
+	
+
+	
+    margin: 0.1em 1em 0.1em 1em;
+    font-size: 62px;
+    line-height: 68px;
+    color: #FFFAF0;
+    text-decoration: none;
+    text-shadow: none;
+	padding: 1px;
+
+	-o-transition:color .2s ease-out, background 2s ease-in;
+	-ms-transition:color .2s ease-out, background 2s ease-in;
+	-moz-transition:color .2s ease-out, background 2s ease-in;
+	-webkit-transition:color .2s ease-out, background 2s ease-in;
+	transition:color .2s ease-out, background 2s ease-in;		
+	
+}
+
+.agileinfo-social-grids ul li a i:hover {
+    color: #FFF8DC;		
+	
+}
+
+/*-- //social-icons --*/
+
+/*-- footer --*/
+
+.copy_right{
+	padding:0;
+	text-align:center;
+	border-top:none;
+}
+.copy_right p {
+    color: #ffffff;
+    line-height: 2em;
+    font-size: 16px;
+	margin: 2em 0;
+}
+.copy_right p a{
+	color:#21f5ff;
+	text-decoration:none;
+}
+.copy_right p a:hover{
+	color:#fff;
+}
+/*-- //footer --*/
+/*-- /responsive design --*/
+@media(max-width:1440px){
+}
+@media(max-width:1366px){
+}
+@media(max-width:1280px){
+}
+@media(max-width:1080px){
+	.ban-head {
+		margin: 12em 0 0 0;
+	}	
+}
+@media(max-width:1024px){
+}
+@media(max-width:991px){
+}
+@media(max-width:800px){
+}
+@media(max-width:768px){
+		
+}
+@media(max-width:736px){
+}
+@media(max-width:667px){
+.agileinfo-social-grids {
+    z-index: 999;
+    text-align: center;
+    float: none;
+}
+}
+@media(max-width:640px){
+	
+.agileinfo-social-grids ul li a i {
+    font-size: 52px;
+    line-height: 52px;
+}	
+
+}
+@media(max-width:600px){
+}
+@media(max-width:568px){
+	.agileinfo-social-grids ul li a i {
+		font-size: 38px;
+		line-height: 38px;
+	}	
+}
+@media(max-width:480px){
+}
+@media(max-width:414px){
+	.agileinfo-social-grids ul li a i {
+		font-size: 32px;
+		line-height: 32px;
+	}	
+}
+@media(max-width:384px){
+}
+@media(max-width:375px){
+}
+@media(max-width:320px){
+	.agileinfo-social-grids ul li a i {
+		font-size: 26px;
+		line-height: 32px;
+	}
+}
+.copy_right p {
+    font-size: 14px;
+}
+.copy_right p {
+    margin: 1em 0;
+}
+}
